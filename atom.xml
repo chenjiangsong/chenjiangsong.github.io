@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-03T07:00:40.000Z</updated>
+  <updated>2016-09-03T15:57:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/08/08/%E5%AE%89%E8%A3%85node-sass/"/>
     <id>http://yoursite.com/2016/08/08/安装node-sass/</id>
     <published>2016-08-08T07:52:16.000Z</published>
-    <updated>2016-09-03T07:00:40.000Z</updated>
+    <updated>2016-09-03T15:57:08.000Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install node-sass</div></pre></td></tr></table></figure>
 ]]></content>
@@ -81,7 +81,7 @@
     <link href="http://yoursite.com/2016/07/25/crontab%E5%85%A5%E9%97%A8/"/>
     <id>http://yoursite.com/2016/07/25/crontab入门/</id>
     <published>2016-07-25T07:13:03.000Z</published>
-    <updated>2016-09-03T07:03:41.000Z</updated>
+    <updated>2016-09-03T15:25:22.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="crontab是啥"><a href="#crontab是啥" class="headerlink" title="crontab是啥"></a>crontab是啥</h3><blockquote>
 <p>linux的定时任务</p>
@@ -144,7 +144,7 @@
     <link href="http://yoursite.com/2016/01/26/%E7%A0%B4%E8%A7%A3%E6%9C%8B%E5%8F%8B%E5%9C%88%E7%99%BD%E5%86%85%E9%9A%9C%E7%85%A7%E7%89%87%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2016/01/26/破解朋友圈白内障照片教程/</id>
     <published>2016-01-26T14:48:21.000Z</published>
-    <updated>2016-07-25T13:38:14.000Z</updated>
+    <updated>2016-09-03T15:33:30.000Z</updated>
     
     <content type="html"><![CDATA[<p>1.准备好windows笔记本电脑，并确保电脑和手机连在同一个wifi下（mac用户都是土豪，不教了）</p>
 <p>2.电脑上下载安装软件——fiddler，并注意去掉“安装百度杀毒”</p>
@@ -179,30 +179,30 @@
     <link href="http://yoursite.com/2015/12/12/centOs%E4%B8%8A%E5%AE%89%E8%A3%85php%E5%92%8Cnginx/"/>
     <id>http://yoursite.com/2015/12/12/centOs上安装php和nginx/</id>
     <published>2015-12-12T08:02:02.000Z</published>
-    <updated>2016-07-25T13:38:14.000Z</updated>
+    <updated>2016-09-03T16:06:39.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安装编译环境"><a href="#安装编译环境" class="headerlink" title="安装编译环境"></a>安装编译环境</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y gcc gcc-c++ ncurses-devel perl</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h2 id="安装编译环境"><a href="#安装编译环境" class="headerlink" title="安装编译环境"></a>安装编译环境</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y gcc gcc-c++ ncurses-devel perl</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="安装pcre开发包（nginx依赖）"><a href="#安装pcre开发包（nginx依赖）" class="headerlink" title="安装pcre开发包（nginx依赖）"></a>安装pcre开发包（nginx依赖）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y pcre-devel</div></pre></td></tr></table></figure>
+<h2 id="安装pcre开发包（nginx依赖）"><a href="#安装pcre开发包（nginx依赖）" class="headerlink" title="安装pcre开发包（nginx依赖）"></a>安装pcre开发包（nginx依赖）</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y pcre-devel</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="安装zlib"><a href="#安装zlib" class="headerlink" title="安装zlib"></a>安装zlib</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y zlib-devel</div></pre></td></tr></table></figure>
-<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><h2 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">wget http://nginx.org/download/nginx-1.7.9.tar.gz</div><div class="line"></div><div class="line">tar xzvf nginx-1.7.9.tar.gz</div><div class="line"></div><div class="line">cd nginx-1.7.9</div><div class="line"></div><div class="line">./configure --prefix=/usr/local/nginx</div><div class="line"></div><div class="line">--user=nobody --group=nobody &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
+<h2 id="安装zlib"><a href="#安装zlib" class="headerlink" title="安装zlib"></a>安装zlib</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install -y zlib-devel</div></pre></td></tr></table></figure>
+<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><h2 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">wget http://nginx.org/download/nginx-1.7.9.tar.gz</div><div class="line"></div><div class="line">tar xzvf nginx-1.7.9.tar.gz</div><div class="line"></div><div class="line"><span class="built_in">cd</span> nginx-1.7.9</div><div class="line"></div><div class="line">./configure --prefix=/usr/<span class="built_in">local</span>/nginx</div><div class="line"></div><div class="line">--user=nobody --group=nobody &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
 <blockquote>
 <p>wget:下载工具命令tar:解压缩包命令 参数：-x 解压 -z 判断是否使用gzip压缩 -v 解压过程显示文件 -f 使用文档名</p>
 </blockquote>
 <hr>
-<h2 id="启动nginx"><a href="#启动nginx" class="headerlink" title="启动nginx"></a>启动nginx</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/local/nginx/sbin/nginx</div></pre></td></tr></table></figure>
+<h2 id="启动nginx"><a href="#启动nginx" class="headerlink" title="启动nginx"></a>启动nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/<span class="built_in">local</span>/nginx/sbin/nginx</div></pre></td></tr></table></figure>
 <hr>
 <h2 id="设置nginx开机启动"><a href="#设置nginx开机启动" class="headerlink" title="设置nginx开机启动"></a>设置nginx开机启动</h2><p><strong>写入文件</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/init.d/nginx</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /etc/init.d/nginx</div></pre></td></tr></table></figure>
 <p><strong>设置成可执行</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/init.d/nginx</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/init.d/nginx</div></pre></td></tr></table></figure>
 <p><strong>设置成开机启动</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chkconfig nginx on</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chkconfig nginx on</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="安装PHP依赖包"><a href="#安装PHP依赖包" class="headerlink" title="安装PHP依赖包"></a>安装PHP依赖包</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y install autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel libmcrypt libmcrypt-devel mysql-devel</div></pre></td></tr></table></figure>
+<h2 id="安装PHP依赖包"><a href="#安装PHP依赖包" class="headerlink" title="安装PHP依赖包"></a>安装PHP依赖包</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum -y install autoconf libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel libmcrypt libmcrypt-devel mysql-devel</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="生成libmysqlclient软链"><a href="#生成libmysqlclient软链" class="headerlink" title="生成libmysqlclient软链"></a>生成libmysqlclient软链</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln -s /usr/lib64/mysql/libmysqlclient.so.18.0.0 /usr/lib/libmysqlclient.so</div></pre></td></tr></table></figure>
+<h2 id="生成libmysqlclient软链"><a href="#生成libmysqlclient软链" class="headerlink" title="生成libmysqlclient软链"></a>生成libmysqlclient软链</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln <span class="_">-s</span> /usr/lib64/mysql/libmysqlclient.so.18.0.0 /usr/lib/libmysqlclient.so</div></pre></td></tr></table></figure>
 <blockquote>
 <p>通过查找libmysqlclient,发现是在/usr/lib64/mysql/目录内的libmysqlclient.so.18.0.0做的软连接,PHP默认是去的 /usr/lib/搜索,所以没有找到，所以要在php默认的/usr/lib/目录下生成链接到libmysqlclient的软链。<br><strong>注意，这里的libmysqlclient.so.18.0.0可能更新而修改版本号（之前我参考的教程就是libmysqlclient.so.16.0.0），所以我们要先进入/usr/lib64/mysql/目录，确定这个文件（libmysqlclient.so.18.0.0）的具体名称，再生成软链。</strong></p>
 </blockquote>
@@ -210,54 +210,54 @@
 <h2 id="安装libmcrypt"><a href="#安装libmcrypt" class="headerlink" title="安装libmcrypt"></a>安装libmcrypt</h2><blockquote>
 <p>centos源不能安装libmcrypt-devel，由于版权的原因没有自带mcrypt的包。所以这里我们使用自己在网上下载的包，然后上传到服务器的目录上。</p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd /usr/local</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget http://softlayer.dl.sourceforge.net/sourceforge/mcrypt/libmcrypt-2.5.8.tar.gz (使用附件的包或者自己下载的包)</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -zxvf libmcrypt-2.5.8.tar.gz</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd libmcrypt-2.5.8</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/local &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget http://softlayer.dl.sourceforge.net/sourceforge/mcrypt/libmcrypt-2.5.8.tar.gz (使用附件的包或者自己下载的包)</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -zxvf libmcrypt-2.5.8.tar.gz</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> libmcrypt-2.5.8</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/<span class="built_in">local</span> &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="安装PHP"><a href="#安装PHP" class="headerlink" title="安装PHP"></a>安装PHP</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget http://cn2.php.net/distributions/php-5.3.29.tar.gz</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar xzvf php-5.3.29.tar.gz</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd php-5.3.29</div></pre></td></tr></table></figure>
+<h2 id="安装PHP"><a href="#安装PHP" class="headerlink" title="安装PHP"></a>安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget http://cn2.php.net/distributions/php-5.3.29.tar.gz</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar xzvf php-5.3.29.tar.gz</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> php-5.3.29</div></pre></td></tr></table></figure>
 <p><strong>内存大于等于1G时</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-mcrypt --enable-mbstring --with-curl --disable-debug -with-bz2 --with-zlib --enable-sockets --enable-zip --with-pcre-regex --with-mysql --with-mysqli --with-gd --with-jpeg-dir &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/<span class="built_in">local</span>/php --with-config-file-path=/usr/<span class="built_in">local</span>/php/etc --enable-fpm --with-mcrypt --enable-mbstring --with-curl --disable-debug -with-bz2 --with-zlib --enable-sockets --enable-zip --with-pcre-regex --with-mysql --with-mysqli --with-gd --with-jpeg-dir &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
 <p><strong>内存小于1G时</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-mcrypt --enable-mbstring --with-curl --disable-debug -with-bz2 --with-zlib --enable-sockets --enable-zip --with-pcre-regex --with-mysql --with-mysqli --with-gd --with-jpeg-dir --disable-fileinfo &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cp php.ini-production /usr/local/php/etc/php.ini</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln -s -f /usr/local/php/bin/phar.phar /usr/local/php/bin/phar</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/php/etc/</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv php-fpm.conf.default php-fpm.conf</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir /usr/local/php/log</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 777 /usr/local/php/log</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure --prefix=/usr/<span class="built_in">local</span>/php --with-config-file-path=/usr/<span class="built_in">local</span>/php/etc --enable-fpm --with-mcrypt --enable-mbstring --with-curl --disable-debug -with-bz2 --with-zlib --enable-sockets --enable-zip --with-pcre-regex --with-mysql --with-mysqli --with-gd --with-jpeg-dir --disable-fileinfo &amp;&amp; make &amp;&amp; make install</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cp php.ini-production /usr/<span class="built_in">local</span>/php/etc/php.ini</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln <span class="_">-s</span> <span class="_">-f</span> /usr/<span class="built_in">local</span>/php/bin/phar.phar /usr/<span class="built_in">local</span>/php/bin/phar</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/php/etc/</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv php-fpm.conf.default php-fpm.conf</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir /usr/<span class="built_in">local</span>/php/<span class="built_in">log</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod 777 /usr/<span class="built_in">local</span>/php/<span class="built_in">log</span></div></pre></td></tr></table></figure>
 <hr>
-<h2 id="修改php-fpm-conf文件"><a href="#修改php-fpm-conf文件" class="headerlink" title="修改php-fpm.conf文件"></a>修改php-fpm.conf文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/local/php/etc/php-fpm.conf</div></pre></td></tr></table></figure>
+<h2 id="修改php-fpm-conf文件"><a href="#修改php-fpm-conf文件" class="headerlink" title="修改php-fpm.conf文件"></a>修改php-fpm.conf文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/<span class="built_in">local</span>/php/etc/php-fpm.conf</div></pre></td></tr></table></figure>
 <blockquote>
 <p>设置错误日志路径 <strong>error_log = /usr/local/php/log/php_errors.log</strong></p>
 </blockquote>
 <hr>
-<h2 id="修改php-ini文件"><a href="#修改php-ini文件" class="headerlink" title="修改php.ini文件"></a>修改php.ini文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/local/php/etc/php.ini</div></pre></td></tr></table></figure>
+<h2 id="修改php-ini文件"><a href="#修改php-ini文件" class="headerlink" title="修改php.ini文件"></a>修改php.ini文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/<span class="built_in">local</span>/php/etc/php.ini</div></pre></td></tr></table></figure>
 <blockquote>
 <p>设置时区中国 <strong>date.timezone = PRC</strong><br>隐藏php版本号 <strong>expose_php=Off</strong></p>
 </blockquote>
 <hr>
-<h2 id="启动php-fpm"><a href="#启动php-fpm" class="headerlink" title="启动php-fpm"></a>启动php-fpm</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/php-5.3.29</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cp sapi/fpm/init.d.php-fpm /etc/init.d/php-fpm</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/init.d/php-fpm</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chkconfig php-fpm on</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/php-fpm start</div></pre></td></tr></table></figure>
+<h2 id="启动php-fpm"><a href="#启动php-fpm" class="headerlink" title="启动php-fpm"></a>启动php-fpm</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/php-5.3.29</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cp sapi/fpm/init.d.php-fpm /etc/init.d/php-fpm</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/init.d/php-fpm</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chkconfig php-fpm on</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/php-fpm start</div></pre></td></tr></table></figure>
 <hr>
-<h2 id="配置一个虚拟主机"><a href="#配置一个虚拟主机" class="headerlink" title="配置一个虚拟主机"></a>配置一个虚拟主机</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir /usr/local/nginx/conf/vhosts</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/local/nginx/conf/nginx.conf</div></pre></td></tr></table></figure>
+<h2 id="配置一个虚拟主机"><a href="#配置一个虚拟主机" class="headerlink" title="配置一个虚拟主机"></a>配置一个虚拟主机</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mkdir /usr/<span class="built_in">local</span>/nginx/conf/vhosts</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim /usr/<span class="built_in">local</span>/nginx/conf/nginx.conf</div></pre></td></tr></table></figure>
 <blockquote>
 <p>去掉log_format main前的注释，在最后一个“}”前加入一行 <strong>include vhosts/*.config;</strong></p>
 </blockquote>
 <hr>
-<h2 id="检查一下配置文件是否有问题"><a href="#检查一下配置文件是否有问题" class="headerlink" title="检查一下配置文件是否有问题"></a>检查一下配置文件是否有问题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/local/nginx/sbin/nginx -t</div></pre></td></tr></table></figure>
+<h2 id="检查一下配置文件是否有问题"><a href="#检查一下配置文件是否有问题" class="headerlink" title="检查一下配置文件是否有问题"></a>检查一下配置文件是否有问题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/<span class="built_in">local</span>/nginx/sbin/nginx -t</div></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>正确响应：</strong><br>nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok<br>nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful</p>
 </blockquote>
 <hr>
-<h2 id="重新加载配置文件"><a href="#重新加载配置文件" class="headerlink" title="重新加载配置文件"></a>重新加载配置文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/local/nginx/sbin/nginx -s reload</div></pre></td></tr></table></figure>
+<h2 id="重新加载配置文件"><a href="#重新加载配置文件" class="headerlink" title="重新加载配置文件"></a>重新加载配置文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/<span class="built_in">local</span>/nginx/sbin/nginx <span class="_">-s</span> reload</div></pre></td></tr></table></figure>
 <blockquote>
 <p>每次新写入一个/usr/local/nginx/conf/vhosts/*.conf 文件都要运行这个命令哦</p>
 </blockquote>
@@ -265,11 +265,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;安装编译环境&quot;&gt;&lt;a href=&quot;#安装编译环境&quot; class=&quot;headerlink&quot; title=&quot;安装编译环境&quot;&gt;&lt;/a&gt;安装编译环境&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y gcc gcc-c++ ncurses-devel perl&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h2 id=&quot;安装编译环境&quot;&gt;&lt;a href=&quot;#安装编译环境&quot; class=&quot;headerlink&quot; title=&quot;安装编译环境&quot;&gt;&lt;/a&gt;安装编译环境&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y gcc gcc-c++ ncurses-devel perl&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;安装pcre开发包（nginx依赖）&quot;&gt;&lt;a href=&quot;#安装pcre开发包（nginx依赖）&quot; class=&quot;headerlink&quot; title=&quot;安装pcre开发包（nginx依赖）&quot;&gt;&lt;/a&gt;安装pcre开发包（nginx依赖）&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y pcre-devel&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;安装pcre开发包（nginx依赖）&quot;&gt;&lt;a href=&quot;#安装pcre开发包（nginx依赖）&quot; class=&quot;headerlink&quot; title=&quot;安装pcre开发包（nginx依赖）&quot;&gt;&lt;/a&gt;安装pcre开发包（nginx依赖）&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y pcre-devel&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;安装zlib&quot;&gt;&lt;a href=&quot;#安装zlib&quot; class=&quot;headerlink&quot; title=&quot;安装zlib&quot;&gt;&lt;/a&gt;安装zlib&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y zlib-devel&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;安装zlib&quot;&gt;&lt;a href=&quot;#安装zlib&quot; class=&quot;headerlink&quot; title=&quot;安装zlib&quot;&gt;&lt;/a&gt;安装zlib&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;yum install -y zlib-devel&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
     
     </summary>
@@ -284,7 +284,7 @@
     <link href="http://yoursite.com/2015/11/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2015/11/18/第一篇博客/</id>
     <published>2015-11-18T07:17:50.000Z</published>
-    <updated>2016-07-25T13:38:14.000Z</updated>
+    <updated>2016-09-03T15:33:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>终于把自己的github博客弄起来了</p>
 <p>接下来慢慢写点啥</p>
