@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-03T03:53:08.000Z</updated>
+  <updated>2016-09-03T07:00:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,99 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/09/03/hello-world/"/>
-    <id>http://yoursite.com/2016/09/03/hello-world/</id>
-    <published>2016-09-03T03:53:08.000Z</published>
-    <updated>2016-09-03T03:53:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>调用微信jssdk的正确姿势</title>
-    <link href="http://yoursite.com/2016/08/09/%E8%B0%83%E7%94%A8%E5%BE%AE%E4%BF%A1jssdk%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/"/>
-    <id>http://yoursite.com/2016/08/09/调用微信jssdk的正确姿势/</id>
-    <published>2016-08-09T14:50:09.000Z</published>
-    <updated>2016-08-09T16:24:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="姿势步骤"><a href="#姿势步骤" class="headerlink" title="姿势步骤"></a>姿势步骤</h1><h2 id="引入js"><a href="#引入js" class="headerlink" title="引入js"></a>引入js</h2><p>//todo截图</p>
-<h2 id="wx-config"><a href="#wx-config" class="headerlink" title="wx.config()"></a>wx.config()</h2><p>//todo截图</p>
-<h2 id="wx-ready"><a href="#wx-ready" class="headerlink" title="wx.ready()"></a>wx.ready()</h2><p>//todo截图</p>
-<h2 id="wx-error"><a href="#wx-error" class="headerlink" title="wx.error()"></a>wx.error()</h2><p>//todo截图<br><a id="more"></a></p>
-<h1 id="引入js-1"><a href="#引入js-1" class="headerlink" title="引入js"></a>引入js</h1><p>html模板里加上<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;script src=&quot;http://res.wx.qq.com/open/js/jweixin-1.1.0.js&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure></p>
-<p>//todo template.vm里的js截图</p>
-<h1 id="wx-config-1"><a href="#wx-config-1" class="headerlink" title="wx.config()"></a>wx.config()</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">wx.config(&#123;</div><div class="line">    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。</div><div class="line">    appId: &apos;&apos;, // 必填，企业号的唯一标识，此处填写企业号corpid</div><div class="line">    timestamp: , // 必填，生成签名的时间戳</div><div class="line">    nonceStr: &apos;&apos;, // 必填，生成签名的随机串</div><div class="line">    signature: &apos;&apos;,// 必填，签名，见下面</div><div class="line">    jsApiList: [] // 必填，需要使用的JS接口列表</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<h2 id="签名（调用sdk最复杂也是最核心的部分）"><a href="#签名（调用sdk最复杂也是最核心的部分）" class="headerlink" title="签名（调用sdk最复杂也是最核心的部分）"></a>签名（调用sdk最复杂也是最核心的部分）</h2><h3 id="设置可信域名"><a href="#设置可信域名" class="headerlink" title="设置可信域名"></a>设置可信域名</h3><p>1.先在微信企业号后台配置可信域名，只有在可信域名下的页面才有资格调用微信jssdk<br><img src="http://ob3wg7deo.bkt.clouddn.com/QQ20160809-0@2x.png" alt=""></p>
-<p>2.可信域名必须是备案过的域名，须写上端口号（不写则默认80端口）</p>
-<p>3.本地调试时可以随便设置一个备过案的域名(www.baidu.com)，然后用gas mask设置代理</p>
-<h3 id="获取appId和appsecret"><a href="#获取appId和appsecret" class="headerlink" title="获取appId和appsecret"></a>获取appId和appsecret</h3><p><img src="http://ob3wg7deo.bkt.clouddn.com/QQ20160809-1@2x.png" alt="获取appId和appsecret"></p>
-<h4 id="和服务号不同点"><a href="#和服务号不同点" class="headerlink" title="和服务号不同点"></a>和服务号不同点</h4><h5 id="企业号里叫作CorpID和Secret，服务号叫作appId和appsecret"><a href="#企业号里叫作CorpID和Secret，服务号叫作appId和appsecret" class="headerlink" title="企业号里叫作CorpID和Secret，服务号叫作appId和appsecret"></a>企业号里叫作CorpID和Secret，服务号叫作appId和appsecret</h5><h5 id="企业号里每个管理组都有独立的secret，服务号只有1个appsecret"><a href="#企业号里每个管理组都有独立的secret，服务号只有1个appsecret" class="headerlink" title="企业号里每个管理组都有独立的secret，服务号只有1个appsecret"></a>企业号里每个管理组都有独立的secret，服务号只有1个appsecret</h5><h3 id="获取AccessToken-get方式"><a href="#获取AccessToken-get方式" class="headerlink" title="获取AccessToken(get方式)"></a>获取AccessToken(get方式)</h3><blockquote>
-<p><a href="https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=id&amp;corpsecret=secrect" target="_blank" rel="external">https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=id&amp;corpsecret=secrect</a></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">   &quot;access_token&quot;: &quot;accesstoken000001&quot;,</div><div class="line">   &quot;expires_in&quot;: 7200</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="获取jsapi-ticket-get方式"><a href="#获取jsapi-ticket-get方式" class="headerlink" title="获取jsapi_ticket(get方式)"></a>获取jsapi_ticket(get方式)</h3><blockquote>
-<p><a href="https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=ACCESS_TOKE" target="_blank" rel="external">https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=ACCESS_TOKE</a></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">&quot;errcode&quot;:0,</div><div class="line">&quot;errmsg&quot;:&quot;ok&quot;,</div><div class="line">&quot;ticket&quot;:&quot;bxLdikRXVbTPdHSM05e5u5sUoXNKd8-41ZO3MhKoyN5OfkWITDGgnr2fwJ0m9E8NYzWKVZvdVtaUgWvsdshFKA&quot;,</div><div class="line">&quot;expires_in&quot;:7200</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="sha1签名"><a href="#sha1签名" class="headerlink" title="sha1签名"></a>sha1签名</h3><h4 id="签名所需元素"><a href="#签名所需元素" class="headerlink" title="签名所需元素"></a>签名所需元素</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">noncestr=Wm3WZYTPz0wzccnW</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">jsapi_ticket=sM4AOVdWfPE4DxkXGEs8VMCPGGVi4C3VM0P37wVUCFvkVAy_90u5h9nbSlYy3-Sl-HhTdfl2fzFy1AOcHKP7qg</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">timestamp=1414587457</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">url=http://mp.weixin.qq.com //需调用jssdk页面的url</div></pre></td></tr></table></figure>
-<h4 id="按字典序排列拼接成字符串"><a href="#按字典序排列拼接成字符串" class="headerlink" title="按字典序排列拼接成字符串"></a>按字典序排列拼接成字符串</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">jsapi_ticket=sM4AOVdWfPE4DxkXGEs8VMCPGGVi4C3VM0P37wVUCFvkVAy_90u5h9nbSlYy3-Sl-HhTdfl2fzFy1AOcHKP7qg&amp;noncestr=Wm3WZYTPz0wzccnW&amp;timestamp=1414587457&amp;url=http://mp.weixin.qq.com</div></pre></td></tr></table></figure>
-<h4 id="进行sha1签名"><a href="#进行sha1签名" class="headerlink" title="进行sha1签名"></a>进行sha1签名</h4><p>得到<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">0f9de62fce790f9a083d5c99e95740ceb90c27ed</div></pre></td></tr></table></figure></p>
-<h4 id="附赠python手动sha1签名代码"><a href="#附赠python手动sha1签名代码" class="headerlink" title="附赠python手动sha1签名代码"></a>附赠python手动sha1签名代码</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">import hashlib</div><div class="line">a = &apos;jsapi_ticket=sM4AOVdWfPE4DxkXGEs8VMCPGGVi4C3VM0P37wVUCFvkVAy_90u5h9nbSlYy3-Sl-HhTdfl2fzFy1AOcHKP7qg&amp;noncestr=Wm3WZYTPz0wzccnW&amp;timestamp=1414587457&amp;url=http://mp.weixin.qq.com&apos;</div><div class="line">print hashlib.sha1(a).hexdigest()</div></pre></td></tr></table></figure>
-<h2 id="jsApiList"><a href="#jsApiList" class="headerlink" title="jsApiList"></a>jsApiList</h2><p>所有需要用到的api接口都要写在这里！不写就还是不给用~</p>
-<h1 id="wx-ready-1"><a href="#wx-ready-1" class="headerlink" title="wx.ready()"></a>wx.ready()</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wx.ready(function()&#123;</div><div class="line">    // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<h1 id="wx-error-1"><a href="#wx-error-1" class="headerlink" title="wx.error()"></a>wx.error()</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wx.error(function(res)&#123;</div><div class="line">    // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;姿势步骤&quot;&gt;&lt;a href=&quot;#姿势步骤&quot; class=&quot;headerlink&quot; title=&quot;姿势步骤&quot;&gt;&lt;/a&gt;姿势步骤&lt;/h1&gt;&lt;h2 id=&quot;引入js&quot;&gt;&lt;a href=&quot;#引入js&quot; class=&quot;headerlink&quot; title=&quot;引入js&quot;&gt;&lt;/a&gt;引入js&lt;/h2&gt;&lt;p&gt;//todo截图&lt;/p&gt;
-&lt;h2 id=&quot;wx-config&quot;&gt;&lt;a href=&quot;#wx-config&quot; class=&quot;headerlink&quot; title=&quot;wx.config()&quot;&gt;&lt;/a&gt;wx.config()&lt;/h2&gt;&lt;p&gt;//todo截图&lt;/p&gt;
-&lt;h2 id=&quot;wx-ready&quot;&gt;&lt;a href=&quot;#wx-ready&quot; class=&quot;headerlink&quot; title=&quot;wx.ready()&quot;&gt;&lt;/a&gt;wx.ready()&lt;/h2&gt;&lt;p&gt;//todo截图&lt;/p&gt;
-&lt;h2 id=&quot;wx-error&quot;&gt;&lt;a href=&quot;#wx-error&quot; class=&quot;headerlink&quot; title=&quot;wx.error()&quot;&gt;&lt;/a&gt;wx.error()&lt;/h2&gt;&lt;p&gt;//todo截图&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="微信jssdk" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1jssdk/"/>
-    
-  </entry>
-  
-  <entry>
     <title>安装node-sass</title>
     <link href="http://yoursite.com/2016/08/08/%E5%AE%89%E8%A3%85node-sass/"/>
     <id>http://yoursite.com/2016/08/08/安装node-sass/</id>
     <published>2016-08-08T07:52:16.000Z</published>
-    <updated>2016-08-09T14:48:13.000Z</updated>
+    <updated>2016-09-03T07:00:40.000Z</updated>
     
-    <content type="html"><![CDATA[<p>仅此一句</p>
-<p>SASS_BINARY_SITE=<a href="https://npm.taobao.org/mirrors/node-sass/" target="_blank" rel="external">https://npm.taobao.org/mirrors/node-sass/</a> npm install node-sass</p>
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install node-sass</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;仅此一句&lt;/p&gt;
-&lt;p&gt;SASS_BINARY_SITE=&lt;a href=&quot;https://npm.taobao.org/mirrors/node-sass/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://npm.taobao.org/mi
+      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line
     
     </summary>
     
@@ -162,17 +81,17 @@
     <link href="http://yoursite.com/2016/07/25/crontab%E5%85%A5%E9%97%A8/"/>
     <id>http://yoursite.com/2016/07/25/crontab入门/</id>
     <published>2016-07-25T07:13:03.000Z</published>
-    <updated>2016-07-25T13:38:14.000Z</updated>
+    <updated>2016-09-03T07:03:41.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="crontab是啥"><a href="#crontab是啥" class="headerlink" title="crontab是啥"></a>crontab是啥</h2><blockquote>
+    <content type="html"><![CDATA[<h3 id="crontab是啥"><a href="#crontab是啥" class="headerlink" title="crontab是啥"></a>crontab是啥</h3><blockquote>
 <p>linux的定时任务</p>
 </blockquote>
-<h2 id="什么情况下使用，在哪使用"><a href="#什么情况下使用，在哪使用" class="headerlink" title="什么情况下使用，在哪使用"></a>什么情况下使用，在哪使用</h2><blockquote>
+<h3 id="什么情况下使用，在哪使用"><a href="#什么情况下使用，在哪使用" class="headerlink" title="什么情况下使用，在哪使用"></a>什么情况下使用，在哪使用</h3><blockquote>
 <p>需要定时执行的程序，如天气预报的爬虫程序。</p>
 <p>在SecurtCRT使用</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="使用介绍"><a href="#使用介绍" class="headerlink" title="使用介绍"></a>使用介绍</h2><h3 id="简单的crontab命令："><a href="#简单的crontab命令：" class="headerlink" title="简单的crontab命令："></a>简单的crontab命令：</h3><blockquote>
+<h3 id="简单的crontab命令："><a href="#简单的crontab命令：" class="headerlink" title="简单的crontab命令："></a>简单的crontab命令：</h3><blockquote>
 <p>crontab -help<br>crontab -l   ：查看已有的定时任务<br>crontab -e  ：编辑或新增定时任务<br>crontab -r   ：删除此用户下所有定时任务</p>
 </blockquote>
 <h3 id="一条crontab任务的结构"><a href="#一条crontab任务的结构" class="headerlink" title="一条crontab任务的结构"></a>一条crontab任务的结构</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">   *      *      *      *      *               command</div><div class="line">|      |      |      |      |                  |</div><div class="line">分钟    小时    天     月      周         运行的语句、执行的程序</div><div class="line">(0~59) (0~23) (1~31) (1~12)  (0~6)</div></pre></td></tr></table></figure>
@@ -183,7 +102,7 @@
 <p>中杠（-）：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”</p>
 <p>正斜线（/）：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用，例如*/10，如果用在minute字段，表示每十分钟执行一次。</p>
 </blockquote>
-<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><h3 id="已经写好的实例（天气预报爬虫）"><a href="#已经写好的实例（天气预报爬虫）" class="headerlink" title="已经写好的实例（天气预报爬虫）"></a>已经写好的实例（天气预报爬虫）</h3><blockquote>
+<h3 id="已经写好的实例（天气预报爬虫）"><a href="#已经写好的实例（天气预报爬虫）" class="headerlink" title="已经写好的实例（天气预报爬虫）"></a>已经写好的实例（天气预报爬虫）</h3><blockquote>
 <p>1,5,6,7,8 8,11,18 <em> </em> * /usr/local/php/bin/php /usr/local/project/htdocs/app_rpt/index.php weather/airquality spyForecast &gt;/dev/null 2&gt;&amp;1</p>
 <p>9,13,14,15,16 8,11,18 <em> </em> * /usr/local/php/bin/php /usr/local/project/htdocs/app_rpt/index.php weather/airquality spyIndex &gt;/dev/null 2&gt;&amp;1</p>
 <p>55 7,10,17 <em> </em> * /usr/local/php/bin/php /usr/local/project/htdocs/app_rpt/index.php weather/airquality set0 &gt;/dev/null 2&gt;&amp;1</p>
@@ -194,22 +113,21 @@
 <p>*/1 <em> </em> <em> </em> date &gt;&gt; /usr/local/project/htdocs/app_pc/resource/log.txt &gt;/dev/null 2&gt;&amp;1</p>
 <p>将当前服务器的时间输入log.txt，每分钟执行一次</p>
 </blockquote>
-<h2 id="查看crontab日志"><a href="#查看crontab日志" class="headerlink" title="查看crontab日志"></a>查看crontab日志</h2><blockquote>
+<h3 id="查看crontab日志"><a href="#查看crontab日志" class="headerlink" title="查看crontab日志"></a>查看crontab日志</h3><blockquote>
 <p>进入日志目录  cd  /var/log</p>
 <p>只查看crontab相关日志文件  ls -l cron*</p>
 </blockquote>
-<h2 id="时间设置技巧"><a href="#时间设置技巧" class="headerlink" title="时间设置技巧"></a>时间设置技巧</h2><h3 id="四月第一个周日执行任务"><a href="#四月第一个周日执行任务" class="headerlink" title="四月第一个周日执行任务"></a>四月第一个周日执行任务</h3><blockquote>
-<p>30 19 1-7 4 *  test `date +\%w` -eq 0 &amp;&amp; [command]</p>
-</blockquote>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>慕课网 crontab教程 ：<a href="http://www.imooc.com/learn/216" target="_blank" rel="external">http://www.imooc.com/learn/216</a> (很多内容在这里看的~~)</p>
+<h3 id="特殊技法"><a href="#特殊技法" class="headerlink" title="特殊技法"></a>特殊技法</h3><p>四月第一个周日执行任务</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">30 19 1-7 4 *  <span class="built_in">test</span> \`date +\%w` <span class="_">-eq</span> 0 &amp;&amp; [<span class="built_in">command</span>]</div></pre></td></tr></table></figure>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="http://www.imooc.com/learn/216" target="_blank" rel="external">慕课网 crontab教程</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;crontab是啥&quot;&gt;&lt;a href=&quot;#crontab是啥&quot; class=&quot;headerlink&quot; title=&quot;crontab是啥&quot;&gt;&lt;/a&gt;crontab是啥&lt;/h2&gt;&lt;blockquote&gt;
+      &lt;h3 id=&quot;crontab是啥&quot;&gt;&lt;a href=&quot;#crontab是啥&quot; class=&quot;headerlink&quot; title=&quot;crontab是啥&quot;&gt;&lt;/a&gt;crontab是啥&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;linux的定时任务&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;什么情况下使用，在哪使用&quot;&gt;&lt;a href=&quot;#什么情况下使用，在哪使用&quot; class=&quot;headerlink&quot; title=&quot;什么情况下使用，在哪使用&quot;&gt;&lt;/a&gt;什么情况下使用，在哪使用&lt;/h2&gt;&lt;blockquote&gt;
+&lt;h3 id=&quot;什么情况下使用，在哪使用&quot;&gt;&lt;a href=&quot;#什么情况下使用，在哪使用&quot; class=&quot;headerlink&quot; title=&quot;什么情况下使用，在哪使用&quot;&gt;&lt;/a&gt;什么情况下使用，在哪使用&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;需要定时执行的程序，如天气预报的爬虫程序。&lt;/p&gt;
 &lt;p&gt;在SecurtCRT使用&lt;/p&gt;
 &lt;/blockquote&gt;
